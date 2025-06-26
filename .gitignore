@@ -1,0 +1,76 @@
+# Node modules
+node_modules/
+
+# Yarn and npm logs
+yarn.lock
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# Expo
+.expo/
+.expo-shared/
+*.expo
+*.expo.js
+
+# Environment files
+.env
+.env.*  # Useful if using dotenv for multiple environments
+
+# Android
+android/
+*.apk
+
+# iOS
+ios/
+
+# Logs
+*.log
+
+# Babel
+babel.config.js
+
+# TypeScript
+*.tsbuildinfo
+
+# Jest
+coverage/
+jest-cache/
+jest.config.js
+
+# VSCode
+.vscode/
+
+# Metro
+metro.config.js
+
+# Watchman
+watchmanconfig
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.orig
+
+# Fastlane (if used)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Build artifacts
+dist/
+build/
+web-build/
+
+# EAS (Expo Application Services) - optional
+.eas/
+
+# SQLite databases (if generated locally)
+*.db
+*.sqlite
