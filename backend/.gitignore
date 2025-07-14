@@ -1,0 +1,60 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment directory
+venv/
+*.env
+
+# Ignore database files
+db.sqlite3
+
+# Ignore log files
+*.log
+test.html
+# Ignore media files (user-uploaded content)
+media/uploads/*
+# Create a folder called uploads in the media directory
+# Ignore local development settings (if you use different settings for production)
+local_settings.py
+
+# Ignore development and debugging files
+*.bak
+*.swp
+.DS_Store
+
+# Ignore the migrations directory for your database schema changes
+*/migrations/
+
+# Ignore environment-specific configuration files
+.env
+
+# Ignore the secret key file
+secret_key.txt
+
+
+# Ignore IDE-specific directories and files
+.vscode/
+.idea/
+
+# Ignore any other build or temporary files/directories
+__init__.py
+*.db
+*.sqlite3
+*.log
+*.pot
+*.swp
+*~
+
+# Ignore editor/IDE settings
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.ntvs_test.*
+
+# Ignore pipenv virtual environment
+/.venv
+env

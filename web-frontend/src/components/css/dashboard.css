@@ -1,0 +1,796 @@
+.DashboardContainer{
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+    position: relative;
+}
+.Navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    border: 20px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+}
+.NavItem{
+    display: flex;
+    width: 60%;
+    padding: 10px;
+    /* background-color: yellow; */
+}
+.logo{
+    width: 40%;
+    /* background-color: brown; */
+    display: flex;
+
+}
+.logo p {
+    /* background-color: aqua; */
+    /* width: 40%; */
+    height: 100%;
+    margin: 0px 0px 0px 20px;
+    /* padding-top: 20px; */
+    font-weight: normal;
+    font-size: 28px;
+}
+.links{
+    /* background-color: blue; */
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 6px 10px 0px 10px;
+    margin: 0px;
+}
+.links ul li{
+    list-style: none;
+    
+}
+.links ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: initial;
+}
+.search{
+    /* margin: 4px; */
+    width:30%;
+    /* background-color: red; */
+}
+.search-input input{
+    width: 92%;
+    margin-top: 8px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    font-size: 20px;
+}
+.profile{
+    align-items: center;
+    padding: 4px 10px 4px 0px;
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.profile-img{
+    width: 40%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ccc;
+    overflow: hidden;
+}
+.profile-img img{
+    width: 100%;
+    height: auto;
+}
+.container{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    /* justify-content: space-around; */
+    
+}
+.container-content{
+    background-color: #ffffff;
+    width: 80%;
+    align-items: center;
+    border-radius: 10px;
+}
+.container-breadcumb{
+    width: 50%;
+    /* margin: 0px  0px 2px 0px; */
+    padding: 1px;
+
+    /* background-color: green; */
+
+}
+.container-breadcumb ul{
+    display: flex;
+    justify-content: space-around;
+}
+.container-breadcumb ul li{
+    list-style: none;
+
+};
+
+.container-breadcumb ul li a{
+    /* color: black; */
+    font-size: 24px;
+    font-weight: normal;
+}
+.dashboard-container{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    margin-top: 60px;
+    width:80%;
+    height: 50%;
+}
+.right-card{
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin:10px
+}
+.right-card img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #CCC;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -4px;
+}
+.card-content{
+    /* flex: 1; */
+    padding: 0px 0px 0px 14px;
+}
+.card-content h2{
+    /* font-size: 1.5rem; */
+    font-weight: normal;
+    margin:10px 0;
+}
+.card-content p{
+    font-size: 1rem;
+    margin:10px 0;
+    color: #555
+}
+.card-date{
+    background-color: #7bc0f1;
+    width: 20%;
+    text-align: center;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.date{
+    color: #2a83ea;
+}
+.date span{
+    display: block;
+}
+
+/* ======================================================= Place to Visit CSS ============================================ */
+.plctovisit-title{
+    padding: 10px;
+}
+.plctovisit-title span{
+    display: block;
+}
+
+/* ======================================================= Bonga Points CSS =========================================== */
+.bonga-container{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+.bonga-container-content{
+    /* background-color: #020000; */
+    width: 80%;  
+    display: flex;
+    margin-bottom:60px;
+}
+.bonga-menu{
+    width:20%;
+    height : 100%;
+    /* text-align: center; */
+    background-color: #dbdbdb;
+    border-radius: 10px 0px 0px 10px;
+    border-bottom: 2px solid #ccc;
+}
+.bonga-display{
+    width:80%;
+    height : 100%;
+    background-color: #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    border-bottom: 2px solid#CCC;
+}
+.menu-item1, .menu-item2, .menu-item3{
+    display: flex;
+    /* justify-content: center; */
+    border-bottom: 1px solid #9c9b9b; 
+    padding:10px;
+}
+.item-name{
+    flex: 1;
+    font-size: 20px;
+    color: #B4B4B4;
+
+}
+.item-icon{
+    /* flex:1; */
+    width:10%;
+    text-align: right;
+    padding-right:20px ;
+}
+.item-icon i:hover{
+    /* i want when you hover over an  */
+}
+.bonga-display{
+    display: flex;
+    justify-content: center;
+    
+}
+.bonga-display-container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    width:50%;
+}
+.points{
+    display: flex;
+    width: 100%;
+    /* background-color: #F7F7F7; */
+    margin-top: 10px;
+}
+.point-scored{
+    flex: 1;
+    padding: 0px 0px 0px 20px;
+}
+.point-total{
+    /* flex: 1; */
+    width:16%;
+    text-align: right;
+    padding: 0px 20px 0px 0px;
+}
+.views{
+    display: flex;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.view-name{
+    flex: 1;
+    padding: 0px 0px 0px 20px;
+    border-right: 1px solid #CCC;
+}
+.views-number{
+    /* flex: 1; */
+    width:16%;
+    text-align: right;
+    padding: 0px 20px 0px 0px;
+}
+
+.likes{
+    display: flex;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.like-name{
+    flex: 1;
+    padding: 0px 0px 0px 20px;
+    border-right: 1px solid #CCC;
+}
+.likes-number{
+    /* flex: 1; */
+    width:16%;
+    text-align: right;
+    padding: 0px 20px 0px 0px;
+}
+
+.comments{
+    display: flex;
+    width: 100%;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.comment-name{
+    flex: 1;
+    padding: 0px 0px 0px 20px;
+    border-right: 1px solid #CCC;
+    /* border-radius: 4px 0px 0px 4px; */
+    /* background-color: greenyellow; */
+}
+.comments-number{
+    /* flex: 1; */
+    width:16%;
+    text-align: right;
+    padding: 0px 20px 0px 0px;
+    /* border-radius: 0px 4px 4px 0px; */
+    /* background-color: red; */
+}
+.alerts-notification{
+    display: flex;
+    width: 100%;
+    height:30%;
+    background-color: #E8F5E9;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.alert-icon{
+    /* flex: 1; */
+    /* padding: 0px 0px 0px 20px; */
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-right: 1px solid #CCC; */
+    /* background-color: greenyellow; */
+}
+.alert-message{
+    flex: 1;
+    /* padding: 4px; */
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight:unset;
+    /* width:16%; */
+    /* text-align: right; */
+    /* padding: 0px 20px 0px 0px; */
+    /* border-radius: 0px 4px 4px 0px; */
+    /* background-color: red; */
+}
+.bonga-btn{
+    text-align: center;
+    margin: 20px;
+}
+.bonga-btn button{
+    font-size: 20px;
+    padding:8px 24px 8px 24px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #1B84E6;
+}
+/* ======================================================= Visit CSS =========================================== */
+.visit-description1, .visit-description2, .visit-description3{
+    display: flex;
+    width:90%;
+    height: 100%;
+    margin-left:60px;
+    border-left: 1px solid #CCC;
+    margin-top: -10px;
+    padding: 20px 0px;
+    /* background-color: red; */
+}
+.visit-date{
+    width:5%;
+    border: 2px solid #2a83ea;
+    border-radius: 50%;
+    margin-left:-26px;
+    background-color: white;
+}
+.visit-date span{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #2a83ea;
+}
+.line {
+    width:3%;
+    border-top: 1px solid #ccc;
+    margin-top: 26px;
+    display: flex;
+}
+.visit-image{
+    width:8%;
+    height: 8vh;
+    /* height:auto;  */
+    /* margin-left: 40px; */
+}
+.visit-image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 4px;
+
+}
+.visit-location{
+    width: 20%;
+    margin-left: 60px;
+}
+.visit-location span{
+    display: block;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.arrow-icon{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+/* ======================================================= Visit Detail CSS =========================================== */
+
+.overlay{
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7); /* Change the opacity here */
+      display: flex;
+      justify-content: center;
+      z-index: 1; /* Ensure the overlay is above other content */
+      
+}
+.overlay-container{
+    width:40%;
+    margin-top: 20px;
+      background-color: white;
+      border-radius: 6px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      z-index: 2; /* Ensure the card is above the overlay */
+      overflow: hidden;
+      overflow-y: auto;
+      
+    }
+.visit-details{
+    width:100%;
+    background-color: #1B84E6;
+}
+.visit-details-content{
+
+    display: flex;
+    align-items: center;
+    padding: 0px 40px 20px 40px;
+}
+.visit-details-content-date{
+    width:10%;
+    margin-right: 10px;
+
+}
+.visit-details-content-date span{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.visit-details-content-image{
+    width:20%;
+    height: 14vh;
+    margin-right: 10px;
+}
+.visit-details-content-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.visit-details-content-location{
+    width: 20%;
+}
+.visit-documentation{
+    padding: 20px;
+    width: 100%;
+    height:100%;
+}
+.visit-documentation-format-card{
+    display: flex;
+    width:60%;
+    /* background-color: red; */
+}
+.text-format{
+    width: 30%;
+    background-color: #E3F2FD;
+    margin-right: 10px;
+    text-align: center;
+}
+.image-format{
+    width: 30%;
+    background-color: #E3F2FD;
+    margin-right: 10px;
+    text-align: center;
+}
+.video-format{
+    width: 30%;
+    text-align: center;
+    background-color: #E3F2FD;
+}
+.text-format, .image-format,  .video-format i{
+    font-size: 40px;
+}
+.visit-documentation-card{
+    width:60%;
+    margin: 20px 0px;
+    display: flex;
+
+}
+.visit-image-card{
+    width: 48%;
+    height: 20%;
+    margin-right: 10px;
+    /* background-color: red; */
+}
+.visit-image-card img{
+    width: 100%;
+    height: 16vh;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.visit-video-card {
+    width: 48%;
+    height: 20%;
+    /* background-color: red; */
+}
+.visit-video-card img{
+    width: 100%;
+    height: 16vh;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.visit-reviews-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.visit-reviews-card-image{
+    width: 14%;
+    height: 10%;
+    
+} 
+.visit-reviews-card-image img{
+    width: 100%;
+    height: 13vh;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.visit-reviews-card-content{
+    margin-left: 20px;
+}
+
+/* ======================================================= Setting CSS ================================================ */
+.settings-container{
+    width:90%;
+    /* width: calc(80%-10px); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px;
+    /* flex-direction: column; */
+    /* background-color: red; */
+}
+.settings-card{
+    /* background-color: yellow; */
+    /* width:100%; */
+    width: calc(50% - 20px); 
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.Notification-card{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    border: 1px solid #CCC;
+    width:80%;
+}
+.sounds{
+    display: flex;
+    border-bottom: 1px solid #CCC;
+
+}
+.Notification-text{
+    flex: 1;
+    padding-left: 20px;
+    
+}
+.Notification-icon{
+    width: 20%;
+}
+.vibrate{
+    display: flex;
+}
+.Vibration-text{
+    flex: 1;
+    padding-left: 20px;
+}
+.Vibration-icon{
+    width: 20%;
+}
+.help-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    width:80%;
+}
+.help-text{
+    border-bottom: 1px solid #CCC;
+    padding-left: 20px;
+}
+.help-icon{
+    padding-left: 20px;
+}
+
+.Account-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    width:80%;
+}
+.Account-text{
+    border-bottom: 1px solid #CCC;
+    padding-left: 20px;
+}
+.Account-icon{
+    padding-left: 20px;
+}
+/* ======================================================= Profile CSS =========================================== */
+.bonga-prof{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.bonga-profile{
+    width:30%;
+    /* height:70%; */
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.bonga-profile img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    object-fit: cover;
+    /* text-align: center; */
+}
+.user-info{
+    /* background-color: red; */
+    border:1px solid #CCC;
+    border-radius: 8px;
+    margin:20px;
+}
+.user-profile, .user-email, .user-phone{
+    display: flex;
+    width:80%;
+    padding: 0px 10% 0px 10%;
+    /* background-color: #555; */
+}
+.user-profile-icon, .user-email-icon, .user-phone-icon{
+    width:10%;
+    /* background-color: red; */
+}
+.user-profile-name, .user-email-address, .user-phone-number{
+    flex: 1;
+    padding-left: 5%;
+}
+
+/* ======================================================= Public Profile CSS =========================================== */
+.profile-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+.profile-content{
+    background-color: #ffffff;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.profileImage{
+    width: 100%;
+    height: 30%;
+    /* object-fit: cover; */
+    text-align: center;
+    /* background-color: red; */
+}
+.profile-media{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+}
+.profile-media-video-card, .profile-media-photoes-card{
+    display: flex;
+    /* background-color: green; */
+    width:100%;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    justify-content: flex-start; /* Adjust horizontal alignment as needed */
+}
+.card-image{
+    width: calc(33.6% - 2px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    border-radius: 10px;
+}
+.card-img {
+  max-width: 100%; /* Make the image responsive */
+  /* height: auto; Maintain aspect ratio */
+  height: 100%;
+  object-fit: cover;
+  max-height: 200px; /* Limit the image height as needed */
+  border-radius: 4px;
+}
+.card-img:hover {
+  transform: scale(1.1); /* Add a hover effect to enlarge the image */
+  transition: transform 0.3s ease-in-out;
+}
+
+
+/* ======================================== Modification Overlay css =============================================================== */
+/* Base styles for the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Styles for the dropdown menu */
+.dropdownAction {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px; /* Rounded corners for a softer look */
+  padding: 4px; /* Add some padding for better spacing */
+}
+
+/* Styles for dropdown links */
+.dropdownAction a {
+  text-decoration: none;
+  display: block;
+  color: #ccc; /* Text color */
+  padding: 10px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Change link background color on hover */
+.dropdownAction a:hover {
+  background-color: #585858; /* Light gray background on hover */
+}
+
+/* Display the dropdown menu on hover */
+.dropdown:hover .dropdownAction {
+  display: block;
+}

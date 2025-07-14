@@ -1,0 +1,95 @@
+
+.wrapper-page{
+    height: 200vh;
+    background-color: var(--secondaryColor);
+    /* background-color: yellow; */
+}
+.Event-detail-Container{
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10cm 7cm ;
+    grid-template-areas: 
+    "event-detail-wrapper"
+    "description-wrapper"; 
+}
+.event-detail-wrapper{
+    grid-area: event-detail-wrapper;
+}
+.thumbnail-bg{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height:67vh;
+    object-fit: cover;
+}
+.description-wrapper{
+    grid-area: description-wrapper;
+}
+.description-wrapper{
+display: grid;
+justify-content: center;
+padding: 0;
+margin: 0;
+/* background-color: ; */
+}
+.content-wrap{
+    margin-top: -160px;
+    width: 540px;
+    border-radius: 10px;
+    background-color: var(--mainColor);
+    padding: 20px;
+}
+.hotel{
+    content: '';
+    position: absolute;
+    height: 2px;
+}
+.horizontal-container{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.lineStyle{
+    border-left: 5px solid var(--dateColor);
+    height: 20px;
+    /* display: inline-block; */
+}
+.hotel-images{
+    display: flex;
+    gap:10px
+}
+.thumbnail1{
+    width: 50%;
+}
+
+.hotel-lists{
+    margin-top: 20px;
+    padding: 0;
+}
+.hotel-images-container {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: darkgray lightgray;
+}
+
+.hotel-images {
+  display: flex;
+  gap: 10px; /* Adjust the gap between images */
+}
+
+.thumbnail1 {
+  flex-shrink: 0; /* Prevent images from shrinking */
+  width: 300px; /* Set a fixed width for each image */
+  height: 230px; /* Set a fixed height for each image */
+  overflow: hidden;/* Hide overflowing content */
+}
+.horizontal-container{
+    margin-top: 20px;
+}
+
+/* Go back button css */
+

@@ -1,0 +1,54 @@
+
+.pay-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.pay-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.pay-form {
+  width: 400px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* PaymentForm.css */
+
+.payment-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.payment-form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.payment-form {
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-element-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card-element {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

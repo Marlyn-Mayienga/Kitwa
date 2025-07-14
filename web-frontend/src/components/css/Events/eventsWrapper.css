@@ -1,0 +1,155 @@
+:root{
+    --buttonBGColor: #0F75BC;
+    --dateColor:#0B7FE5;
+    --mainColor:#FFFFFF;
+    --secondaryColor:#EEEEEE;
+    --dateBGColor:#E3F2FD;
+    --borderColor:#E4E4E4
+}
+/* Please remind me to make these css the main css after */
+
+h1, h2, h3,h4, h5,h6,strong {
+    font-weight: 300;
+    font-family: 'Russo One', sans-serif;
+    /* font-family: 'Russo One', sans-serif; */
+}
+p, li, span, label, input, textarea {
+    /* color: var(--secondaryColor); */
+    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Mono', monospace; */
+}
+#event-button{
+    text-align: end;
+    padding: 30px;
+    margin:40px 80px 0 80px;
+
+}
+#add-event-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    background-color: var(--buttonBGColor);
+
+}
+.events-content-container{
+    background-color: var(--mainColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+    align-items: stretch;
+    
+}
+.events-content-container ul{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 20px 10px;
+
+}
+
+.events-content-container a{
+    font-size:18px;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    position: relative;
+
+}
+.events-content-container a::before{
+    content: ' ';
+    position: absolute;
+    bottom: -20px;
+    padding: 0px;
+    margin:0px;
+    width: 100%;
+    height:5px;
+    background-color: var(--buttonBGColor);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.2s ease-in-out;
+}
+.events-content-container li:hover{
+    color: var(--dateColor);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.events-content-container a:hover::before{
+    transform: scaleX(1);
+    
+}
+.events-content-container li.active{
+    background-color: var(--dateBGColor);
+    color: var(--buttonBGColor);
+}
+
+.events-content-container  li.active a::before{
+    transform: scaleX(1);
+}
+
+#thumbnail{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+.left-post-wrapper{
+    display: flex;
+    
+    margin: 0;
+}
+.post-info{
+    flex: 1;
+    padding: 15px;
+    border-radius: 0 0 0 5px;
+    background-color: var(--mainColor);
+}
+#post-preview{
+  color: #4b5156;
+  font-size: 14px;
+  font-family: 'Roboto Serif', serif;
+}
+#post-date{
+    padding: 15px;
+    background-color: var(--dateBGColor);
+    
+    border-radius: 0 0 5px 0;
+    margin: 0;
+}
+#post-date span{
+    text-align: center;
+    display: block;
+    color: var(--dateColor);
+}
+#post-header{
+  /* color: black; */
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Russo One', sans-serif;
+}
+#left-post{
+    padding: 30px;
+}
+#right-post{
+    padding: 30px;
+}
+
+#event-wrapper{
+    margin: 0 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
+    /* background-color: greenyellow; */
+}
+/* @media screen and (max-width: 800px){
+    #event-wrapper{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "event-header"
+    "left-post"
+    "right-post"; */
+    /* justify-content: center; */
+/* }
+
+} */

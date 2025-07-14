@@ -1,0 +1,8 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.buyFormWrapper{
+  min-height: 100vh; /* Use min-height to cover at least the full viewport height */
+}

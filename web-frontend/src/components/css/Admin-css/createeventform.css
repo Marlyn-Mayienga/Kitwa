@@ -1,0 +1,23 @@
+.col-1 input{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 6px 0px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+.col-1 textarea, select{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 6px 0px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+.col-1 label{
+    font-size: medium;
+}

@@ -1,0 +1,85 @@
+/* write media query */
+@media (max-width: 768px) {
+    .body{
+        background-color: red;
+    }
+}
+.signup-container{
+    width: 100%;
+    height: 100vh;
+    /* flexbox */
+    display: flex;    
+}
+.left-col{
+    background-color: #E3F2FD;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 30px;
+}
+.left-col p {
+    font-size: 40px;
+    font-weight: 600;
+    /* margin: 20px; */
+
+}
+.right-col{
+    /* background-color: yellow; */
+    /* width and height */
+    width: 60%;
+    height: 100vh;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-form{
+    width: 50%;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    /* background-color: aqua; */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-group input{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 6px 0px;
+    box-sizing: border-box;
+}
+.username{
+    display: flex;
+    
+}
+.column{
+    flex: 1;
+    
+}
+.socialAcc-button{
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding: 10px; 
+    color: #CCC;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    outline: "none";
+    border-radius: 5px;
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+}
+.socialAcc-button img{
+    width:6%;
+    padding: 6px 120px 6px 6px;
+}

@@ -1,0 +1,68 @@
+.signup-wrapper{
+display: grid;
+grid-template-columns: 520px 1fr;
+grid-template-rows: 14.4cm;
+grid-template-areas:
+"left-col right-col";
+}
+#left-col{
+    display: grid;
+    grid-area: left-col;
+    background-color: var(--dateBGColor);
+    justify-content: center;
+    align-content: center;
+}
+#thumbnail{
+    width: 100%;
+}
+#logo-name{
+    font-weight: 800;
+    font-size: 2rem;
+    /* font-family: 'Roboto Serif', serif; */
+}
+#right-col{
+    background-color: var(--mainColor);
+    display: grid;
+    justify-content: center;
+    grid-area: right-col;
+    
+}
+#auth-title{
+    color: var(--buttonBGColor);
+    text-align: center;
+   
+}
+#auth-form{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+
+}
+.input-container{
+    padding: 16px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+}
+#auth-btn{
+    background-color: var(--buttonBGColor);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px){
+.signup-wrapper{
+grid-template-columns: 420px;
+grid-template-areas:
+"left-col"
+ "right-col";
+ margin: 0 10px;
+}
+
+    
+}
